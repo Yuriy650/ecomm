@@ -3,7 +3,7 @@
   "name": "ecomm",
   "version": "0.0.0",
   "scripts": {
-    "predeploy": "npm run build -- --prod=true --base-href=https://Yuriy650.github.io/ecomm/",
+    "predeploy": "npm run build --base-href=https://Yuriy650.github.io/ecomm/",
     "deploy": "@powershell copy dist/ecomm/index.html dist/ecomm/404.html && gh-pages -d dist/ecomm",
     "ng": "ng",
     "start": "ng serve",
